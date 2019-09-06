@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 50;
+     background-image: url(opacleaves.png);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: light;
+    text-align: center;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-family: "verdana", Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 75px;
+    color: antiquewhite;
+} 
+
+li a:hover {
+    background-color: #003300;
+}
